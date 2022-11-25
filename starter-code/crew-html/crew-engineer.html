@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/general.css" />
+    <link rel="stylesheet" href="/general-destination.css" />
+    <style>
+      body{
+        background-image: url(../assets/crew/background-crew-mobile.jpg);
+      }
+      .article-nav-list--crew{
+        gap: 1.6rem;
+      }
+      .article-nav-link--crew{
+        background-color: #ffff;
+        opacity: 0.17436291;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+      }
+      .article-nav-link--crew.active{
+        opacity: 1;
+      }
+      .article-nav-link--crew.active::after{
+        display: none;
+      }
+      .destination-figure-caption{
+        display: flex;
+        flex-direction: column;
+        gap: .8rem;
+      }
+      .destination-figure header {
+        gap: 3.2rem;
+      }
+    </style>
+    <script defer src="../../script.js"></script>
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+<body>
+  <header class="main-header">
+    <div class="container">
+      <img src="../assets/shared/logo.svg" alt="Space Travel logo" class="logo"/>
+      <nav class="nav">
+        <button class="mobile-menu-btn">
+          <img src="../assets/shared/icon-close.svg" alt="menu button close icon" />
+        </button>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="../index.html" class="nav-link"><span>00</span>Home</li></a>
+          <li class="nav-item"><a href="../destination-moon.html" class="nav-link"><span>01</span>Destination</li></a>
+          <li class="nav-item"><a href="crew-commander.html" class="nav-link"><span>02</span>Crew</li></a>
+          <li class="nav-item"><a href="../technology-vehicle" class="nav-link"><span>03</span>Technology</li></a>
+        </ul>
+      </nav>
+      <button class="mobile-menu-btn">
+        <img 
+          src="../assets/shared/icon-hamburger.svg"
+          alt="menu button hamburger icon"
+        />
+      </button>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <article class="destination-figure">
+        <header>
+          <h4 class="heading-destination"><span>02</span>Meet your crew</h4>
+          <div class="article-img-container">
+            <img src="../assets/crew/image-anousheh-ansari.png" alt="" class="destination-img">
+          </div>
+          <nav class="article-nav">
+            <ul class="article-nav-list article-nav-list--crew">
+              <li class="article-nav-item"><a href="crew-commander.html" class="article-nav-link article-nav-link--crew"></a></li>
+              <li class="article-nav-item"><a href="crew-specialist.html" class="article-nav-link article-nav-link--crew"> </a></li>
+              <li class="article-nav-item"><a href="crew-pilot.html" class="article-nav-link article-nav-link--crew"></a></li>
+              <li class="article-nav-item"><a href="crew-engineer.html" class="article-nav-link article-nav-link--crew active"></a></li>
+            </ul>
+          </nav>
+        </header>
+        <section class="destination-figure-caption">
+          <h5 class="heading-5 heading-5--crew">
+            Flight Engineer 
+          </h5>
+          <h3 class="heading-3">
+            Anousheh Ansari
+          </h3>
+          <p class="body-text">
+            Anousheh Ansari is an Iranian American engineer and
+            co-founder of Prodea Systems. Ansari was the fourth self-funded space
+            tourist, the first self-funded woman to fly to the ISS, and the first
+            Iranian in space.
+          </p>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  </body>
+</html>

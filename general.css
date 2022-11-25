@@ -63,6 +63,7 @@ body {
   letter-spacing: 0.27rem;
   color: #d0d6f9;
   z-index: -1;
+  font-weight: 400;
 }
 .subheading-1 {
   color: #d0d6f9;
@@ -128,6 +129,7 @@ body {
   padding-top: 1.8rem;
   gap: 4.8rem;
   font-weight: 400;
+  z-index: 1;
 }
 .nav.visible {
   transform: translate(0%);

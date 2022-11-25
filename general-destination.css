@@ -40,6 +40,9 @@ body {
   text-align: center;
   position: relative;
   z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .article-img-container::after {
   content: "";
@@ -56,6 +59,9 @@ body {
   display: inline-block;
   width: 69%;
   margin: 0 auto;
+}
+.full-width-img {
+  width: 100vw;
 }
 .article-nav {
   width: fit-content;
@@ -105,4 +111,30 @@ body {
   width: 100%;
   height: 1px;
   background-color: #383b4b;
+}
+
+/* Comomon */
+.article-nav-list--crew {
+  gap: 1.6rem;
+}
+.article-nav-link--crew {
+  background-color: #ffff;
+  opacity: 0.17436291;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+.article-nav-link--crew.active {
+  opacity: 1;
+}
+.article-nav-link--crew.active::after {
+  display: none;
+}
+.destination-figure-caption {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.destination-figure header {
+  gap: 3.2rem;
 }

@@ -64,6 +64,12 @@ body {
 .mobile-menu-btn {
   border: none;
   background-color: rgba(240, 248, 255, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobile-menu-btn:first-child {
+  height: 9.6rem;
 }
 .nav {
   width: 90vw;
@@ -80,12 +86,16 @@ body {
   transform: translate(100%);
   transition: 0.3s ease;
   padding: 2.4rem;
+  padding-top: 0;
   gap: 4.8rem;
   font-weight: 400;
 }
 .nav img {
   flex: 0 0 1.9rem;
   width: 1.9rem;
+}
+.nav.visible {
+  transform: translate(0%);
 }
 .nav-list {
   flex: 1 0;

@@ -1,8 +1,3 @@
-body {
-  background-image: url(/starter-code/assets/destination/background-destination-mobile.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .destination-figure {
   display: flex;
   flex-direction: column;
@@ -39,21 +34,10 @@ body {
   width: 100%;
   text-align: center;
   position: relative;
-  z-index: -1;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.article-img-container::after {
-  content: "";
-  display: inline-block;
-  width: 100%;
-  height: 1px;
-  background-color: #383b4b;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, -200%);
+  border-bottom: solid 1px #383b4b;
 }
 .destination-img {
   display: inline-block;
@@ -72,18 +56,20 @@ body {
   display: flex;
   gap: 3.2rem;
 }
-.article-nav-link:link,
-.article-nav-link:visited {
+.article-nav-link {
   display: inline-block;
   font-family: "Barlow-Condensed";
-  color: #d0d6f9;
   text-decoration: none;
   font-size: 1.4rem;
-  text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 0.23625rem;
   position: relative;
   z-index: 0;
+  text-transform: uppercase;
+}
+.article-nav-link:link,
+.article-nav-link:visited {
+  color: #d0d6f9;
 }
 .article-nav-link.active {
   color: #ffff;

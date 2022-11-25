@@ -11,6 +11,24 @@
   font-family: "Bellefair";
   src: url("starter-code/assets/fonts/Bellefair/Bellefair-Regular.ttf");
 }
+body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 1.2rem;
+  height: 100%;
+  width: 100vw;
+  overflow-x: hidden;
+}
+body.body-destination {
+  background-image: url(starter-code/assets/destination/background-destination-mobile.jpg);
+}
+body.body-crew {
+  background-image: url(starter-code/assets/crew/background-crew-mobile.jpg);
+}
+body.body-technology {
+  background-image: url(starter-code/assets/technology/background-technology-mobile.jpg);
+}
 * {
   margin: 0;
   padding: 0;
@@ -21,18 +39,15 @@ html {
   font-family: "Barlow";
   color: #ffffff;
 }
-body {
-  font-size: 1.2rem;
-  height: 100vh;
-  width: 100vw;
-  overflow-x: hidden;
+.mask {
+  background-color: rgba(11, 13, 23, 0.5);
 }
 .container {
-  width: 100vw;
+  width: 100%;
   max-width: 90rem;
-  padding: 2.4rem;
   padding-top: 0rem;
   margin: 0 auto;
+  padding: 2.4rem;
 }
 .heading-1,
 .heading-2,

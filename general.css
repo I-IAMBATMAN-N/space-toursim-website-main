@@ -71,6 +71,9 @@ body {
 .mobile-menu-btn:first-child {
   height: 9.6rem;
 }
+.logo {
+  width: 4rem;
+}
 .nav {
   width: 90vw;
   position: absolute;
@@ -90,12 +93,12 @@ body {
   gap: 4.8rem;
   font-weight: 400;
 }
+.nav.visible {
+  transform: translate(0%);
+}
 .nav img {
   flex: 0 0 1.9rem;
   width: 1.9rem;
-}
-.nav.visible {
-  transform: translate(0%);
 }
 .nav-list {
   flex: 1 0;

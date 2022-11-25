@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "Barlow";
+  src: url(starter-code/assets/fonts/Barlow/Barlow-Light.ttf);
+  font-weight: ;
+}
+@font-face {
+  font-family: "Barlow-Condensed";
+  src: local("Trickster"),
+    url("starter-code/assets/fonts/Barlow-Condensed/BarlowCondensed-Light.ttf");
+}
+@font-face {
+  font-family: "Bellefair";
+  src: url("starter-code/assets/fonts/Bellefair/Bellefair-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Barlow";
+  color: #ffffff;
+}
+body {
+  font-size: 1.2rem;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 90rem;
+  padding: 2.4rem;
+}
+.heading-1 {
+  font-family: "Bellefair";
+  font-size: 8rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.heading-5 {
+  font-family: "Barlow-Condensed";
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.27rem;
+  color: #d0d6f9;
+}
+.body-text {
+  color: #d0d6f9;
+  font-size: 1.5rem;
+  line-height: 1.7;
+  font-weight: 400;
+  text-align: center;
+}
+.main-header {
+}
+.main-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobile-menu-btn {
+  border: none;
+  background-color: rgba(240, 248, 255, 0);
+}
+.nav {
+  width: 90vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  height: 100vh;
+  width: 67.7vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  backdrop-filter: blur(30px);
+  transform: translate(100%);
+  transition: 0.3s ease;
+  padding: 2.4rem;
+  gap: 4.8rem;
+  font-weight: 400;
+}
+.nav img {
+  flex: 0 0 1.9rem;
+  width: 1.9rem;
+}
+.nav-list {
+  flex: 1 0;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.2rem;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.27rem;
+}
+.nav-link span {
+  display: inline-block;
+  margin-right: 1.2rem;
+  font-weight: 700;
+}
+.section {
+  width: 100vw;
+  padding: 2.4rem;
+}
+.section-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.btn-cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bellefair";
+  background-color: #ffff;
+  font-size: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #0b0d17;
+  letter-spacing: 0.12rem;
+  width: 15rem;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+.section--home {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}

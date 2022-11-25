@@ -35,16 +35,16 @@ body {
   width: 17rem;
   margin: 0 auto;
 }
-.destination-nav {
+.article-nav {
   width: fit-content;
   margin: 0 auto;
 }
-.destination-nav-list {
+.article-nav-list {
   list-style: none;
   display: flex;
   gap: 3.2rem;
 }
-.destination-nav-link {
+.article-nav-link {
   font-family: "Barlow-Condensed";
   color: #d0d6f9;
   text-decoration: none;
@@ -52,12 +52,13 @@ body {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 0.23625rem;
-}
-.destination-nav-link.active {
   position: relative;
+  z-index: -1;
+}
+.article-nav-link.active {
   color: #ffff;
 }
-.destination-nav-link.active::after {
+.article-nav-link.active::after {
   position: absolute;
   content: "";
   display: inline-block;

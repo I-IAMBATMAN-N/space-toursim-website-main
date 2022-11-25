@@ -83,6 +83,7 @@ body {
   text-align: center;
 }
 .main-header {
+  z-index: 1;
 }
 .main-header .container {
   display: flex;

@@ -16,6 +16,11 @@ body {
 .destination-figure-caption .heading-2 {
   margin-bottom: -1.2rem;
 }
+.heading-5--crew {
+  color: #ffffff;
+  opacity: 0.49512592;
+  font-weight: 400;
+}
 .heading-destination {
   font-family: "Barlow-Condensed";
   font-size: 1.6rem;
@@ -44,7 +49,8 @@ body {
   display: flex;
   gap: 3.2rem;
 }
-.article-nav-link {
+.article-nav-link:link {
+  display: inline-block;
   font-family: "Barlow-Condensed";
   color: #d0d6f9;
   text-decoration: none;

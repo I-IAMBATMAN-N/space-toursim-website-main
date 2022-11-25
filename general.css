@@ -26,7 +26,7 @@ body {
   height: 100vh;
   width: 100vw;
   overflow-x: hidden;
-  background-image: url(assets/home/background-home-mobile.jpg);
+  background-image: url(/starter-code/assets/home/background-home-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -36,16 +36,24 @@ body {
   padding: 2.4rem;
   margin: 0 auto;
 }
-.heading-1 {
+.heading-1,
+.heading-2,
+.heading-3 {
   font-family: "Bellefair";
+  font-weight: 400;
+}
+.heading-1 {
   font-size: 8rem;
   text-transform: uppercase;
   text-align: center;
 }
 .heading-2 {
-  font-family: "Bellefair";
   font-size: 5.6rem;
-  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+.heading-3 {
+  font-size: 24px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -54,7 +62,6 @@ body {
   font-size: 1.6rem;
   text-transform: uppercase;
   text-align: center;
-  font-weight: 400;
   letter-spacing: 0.27rem;
   color: #d0d6f9;
 }

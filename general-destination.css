@@ -74,11 +74,12 @@
 .article-nav-link.active {
   color: #ffff;
 }
+.nav-link.active::after,
 .article-nav-link.active::after {
   position: absolute;
   content: "";
   display: inline-block;
-  width: 3.753rem;
+  width: 80%;
   height: 0.163rem;
   background-color: #ffffff;
   bottom: 0;

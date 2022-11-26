@@ -11,11 +11,18 @@
     />
     <title>Frontend Mentor | Space tourism website</title>
     <link rel="stylesheet" href="/general.css" />
+    <link rel="stylesheet" href="/queries.css" />
     <style>
-      body{
-        background-image: url(/starter-code/assets/destination/background-destination-mobile.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
+      @media (min-width: 767px) {
+          body{
+          background-image: url(/starter-code/assets/home/background-home-mobile.jpg);
+
+        }
+      }
+      @media (min-width: 767px) and (max-width: 1339px) {
+          body{
+          background-image: url(/starter-code/assets/home/background-home-tablet.jpg);
+        }
       }
     </style>
     <script defer src="script.js"></script>

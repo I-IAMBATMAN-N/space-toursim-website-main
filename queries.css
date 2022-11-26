@@ -11,7 +11,7 @@
     height: 100%;
   }
   .container {
-    padding: 8rem 0;
+    padding: 8rem 4.6rem;
   }
   .logo {
     margin-left: 3.2rem;
@@ -64,12 +64,30 @@
     font-weight: 400;
     line-height: 1;
   }
+  .heading-2 {
+    font-size: 8rem;
+    font-weight: 400;
+    text-align: center;
+  }
   .heading-5 {
     font-family: "Barlow-Condensed";
     font-size: 2rem;
     font-weight: 400;
     text-align: center;
     letter-spacing: 0.3375rem;
+  }
+  .subheading-1 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.23625rem;
+  }
+  .subheading-2 {
+    font-size: 2.8rem;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
   }
   .body-text {
     font-size: 1.6rem;
@@ -90,5 +108,39 @@
   /* HOME */
   .section-text-container {
     gap: 2.4rem;
+  }
+  /* DESTINATION */
+
+  /* ARTICLE */
+  .heading-article {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.3375rem;
+  }
+  .article-details {
+    flex-direction: row;
+    position: relative;
+  }
+  .article-details::before {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .article-detail {
+    flex: 1;
+  }
+  .article-nav-link {
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.27rem;
+  }
+  .article-figure {
+    gap: 3.2rem;
+  }
+  .article-figure-caption .body-text {
+    padding: 0 10%;
   }
 }

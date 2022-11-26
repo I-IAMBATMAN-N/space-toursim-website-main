@@ -99,7 +99,13 @@
   height: 1px;
   background-color: #383b4b;
 }
-
+.article-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.8rem;
+}
 /* Comomon */
 .article-nav-list--crew {
   gap: 1.6rem;

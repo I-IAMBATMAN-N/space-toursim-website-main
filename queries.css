@@ -2,29 +2,58 @@
   .mobile-menu-btn {
     display: none;
   }
+  .main-header {
+    height: 10rem;
+  }
   .main-header .container {
     padding: 0;
     max-width: 100%;
+    height: 100%;
+  }
+  .container {
+    padding: 8rem 0;
   }
   .logo {
     margin-left: 3.2rem;
   }
   .nav {
+    padding: 0;
     position: static;
     flex: 0 0 30%;
     height: 100%;
     transform: translate(0, 0);
     background: rgba(255, 255, 255, 0.04);
-    padding: 3.2rem;
-    padding-right: 1.4rem;
   }
   .nav-list {
     flex-direction: row;
+    align-items: center;
+    padding-left: 4rem;
+    padding-right: 2.4rem;
+    height: 100%;
+  }
+  .nav-item {
+    height: 100%;
   }
   .nav-link {
+    display: inline-block;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 1.4rem;
     font-weight: 400;
     letter-spacing: 0.23625rem;
+    position: relative;
+  }
+  .nav-link.active::after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 80%;
+    height: 0.163rem;
+    background-color: #ffffff;
+    bottom: 0;
+    left: 0;
   }
   .nav-link span {
     display: none;
@@ -56,5 +85,10 @@
     width: 24.2rem;
     height: 24.2rem;
     margin-top: 18rem;
+  }
+
+  /* HOME */
+  .section-text-container {
+    gap: 2.4rem;
   }
 }

@@ -42,7 +42,7 @@ body {
     background-image: url(starter-code/assets/technology/background-technology-mobile.jpg);
   }
 }
-@media (max-width: 767px) {
+@media (min-width: 767px) {
   body.body-destination {
     background-image: url(starter-code/assets/destination/background-destination-mobile.jpg);
   }

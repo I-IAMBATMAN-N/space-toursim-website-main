@@ -109,8 +109,6 @@
   .section-text-container {
     gap: 2.4rem;
   }
-  /* DESTINATION */
-
   /* ARTICLE */
   .heading-article {
     text-align: left;
@@ -142,5 +140,11 @@
   }
   .article-figure-caption .body-text {
     padding: 0 10%;
+  }
+  /* TECHNOLOGY */
+  .full-width-img {
+    transform: scaleX(1.1);
+    width: 100vw;
+    height: auto;
   }
 }

@@ -1,7 +1,8 @@
 .article-figure {
   display: flex;
   flex-direction: column;
-  gap: 2.4rem;
+  /* gap: 2.4rem; */
+  gap: 4.6rem;
 }
 .article-figure header {
   display: flex;
@@ -35,7 +36,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2.4rem;
+  gap: 4.6rem;
 }
 .article-img-container {
   width: 100%;

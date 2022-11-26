@@ -1,22 +1,24 @@
 /* CREW */
-.article-img-nav-container {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
-}
+@media (min-width: 767px) and (max-width: 1339px) {
+  .article-img-nav-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
 
-.article-nav {
-  order: -1;
-}
-.article-img-container {
-  height: 50vh;
-  align-items: flex-end;
-  border-bottom: solid 1px #383b4b;
-}
-.article-img {
-  width: 100%;
-}
-.article-img.specialist {
-  width: 85%;
+  .article-nav {
+    order: -1;
+  }
+  .article-img-container {
+    height: 50vh;
+    align-items: flex-end;
+    border-bottom: solid 1px #383b4b;
+  }
+  .article-img {
+    width: 100%;
+  }
+  .article-img.specialist {
+    width: 80%;
+  }
 }

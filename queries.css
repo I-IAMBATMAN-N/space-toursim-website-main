@@ -83,7 +83,7 @@
 /* ***************************************************************************** */
 /* TABLET */
 /* ***************************************************************************** */
-@media (min-width: 767px) and (max-width: 1199px) {
+@media (min-width: 767px) {
   body.body-destination {
     background-image: url(starter-code/assets/destination/background-destination-tablet.jpg);
   }
@@ -229,6 +229,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 12rem;
+    height: 100%;
   }
   .section--home {
     flex-direction: row;
@@ -247,6 +248,7 @@
   }
   .heading-1,
   .heading-2,
+  .heading-3,
   .heading-5,
   .body-text {
     text-align: left;
@@ -256,6 +258,9 @@
   }
   .heading-2 {
     font-size: 10rem;
+  }
+  .heading-3 {
+    font-size: 5.6rem;
   }
   .heading-5 {
     font-size: 2.8rem;
@@ -300,14 +305,17 @@
     flex-direction: row;
   }
   .article-img-container {
-    flex: 1;
+    flex: 0 0 40%;
+    height: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: end;
+    align-items: flex-end;
   }
   .article-img {
     margin: 0;
-    width: 44.5rem;
+    width: 80%;
+    max-width: 60rem;
+    display: inline-block;
   }
   .article-text-section {
     flex: 0 0 40%;
@@ -319,11 +327,23 @@
   .article-nav-link {
     font-size: 1.8rem;
   }
+  .article-figure {
+    justify-content: space-between;
+    position: relative;
+    height: 60rem;
+  }
   .article-figure header {
-    flex: 1 0;
+    flex: 0 0 50%;
+
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: end;
+  }
+  .heading-article {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 2.8rem;
   }
   .article-details {
     position: relative;
@@ -341,5 +361,29 @@
   .article-detail {
     flex: 1 0;
     align-items: flex-start;
+  }
+
+  .article-figure-caption {
+    flex: 1 0;
+    justify-content: center;
+  }
+  /* CREW */
+  .body-crew .article-nav {
+    order: 2;
+  }
+  .heading-5--crew {
+    font-size: 3.2rem;
+  }
+  .article-nav-link--crew {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .body-crew .article-text-section {
+    flex: 0 0 50%;
+    order: -1;
+    justify-content: space-between;
+  }
+  .body-crew .article-text-section .body-text {
+    width: 80%;
   }
 }

@@ -32,33 +32,13 @@ body {
   overflow-x: hidden;
   position: relative;
 }
-@media (max-width: 767px) {
-  body.body-destination {
-    background-image: url(starter-code/assets/destination/background-destination-mobile.jpg);
-  }
-  body.body-crew {
-    background-image: url(starter-code/assets/crew/background-crew-mobile.jpg);
-  }
-  body.body-technology {
-    background-image: url(starter-code/assets/technology/background-technology-mobile.jpg);
-  }
-}
-@media (min-width: 767px) {
-  body.body-destination {
-    background-image: url(starter-code/assets/destination/background-destination-mobile.jpg);
-  }
-  body.body-crew {
-    background-image: url(starter-code/assets/crew/background-crew-mobile.jpg);
-  }
-  body.body-technology {
-    background-image: url(starter-code/assets/technology/background-technology-mobile.jpg);
-  }
-}
 .mask {
   background-color: rgba(11, 13, 23, 0.5);
   width: 100%;
   min-height: 100vh;
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .container {
   width: 100%;
@@ -66,6 +46,7 @@ body {
   padding-top: 0rem;
   margin: 0 auto;
   padding: 2.4rem;
+  flex: 1;
 }
 .heading-1,
 .heading-2,
@@ -110,7 +91,7 @@ body {
 .subheading-2 {
   color: #ffffff;
   font-family: "Bellefair";
-  font-size: 28px;
+  font-size: 2.8rem;
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;

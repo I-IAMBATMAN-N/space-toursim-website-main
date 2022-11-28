@@ -1,4 +1,27 @@
 /* GENERAL for NAV */
+@media (max-width: 767px) {
+  body.body-destination {
+    background-image: url(starter-code/assets/destination/background-destination-mobile.jpg);
+  }
+  body.body-crew {
+    background-image: url(starter-code/assets/crew/background-crew-mobile.jpg);
+  }
+  body.body-technology {
+    background-image: url(starter-code/assets/technology/background-technology-mobile.jpg);
+  }
+}
+@media (min-width: 767px) {
+  body.body-destination {
+    background-image: url(starter-code/assets/destination/background-destination-mobile.jpg);
+  }
+  body.body-crew {
+    background-image: url(starter-code/assets/crew/background-crew-mobile.jpg);
+  }
+  body.body-technology {
+    background-image: url(starter-code/assets/technology/background-technology-mobile.jpg);
+  }
+}
+/* GENERAL for NAV */
 @media (min-width: 767px) {
   .mobile-menu-btn {
     display: none;
@@ -55,6 +78,31 @@
     background-color: #ffffff;
     bottom: 0;
     left: 0;
+  }
+}
+/* ***************************************************************************** */
+/* TABLET */
+/* ***************************************************************************** */
+@media (min-width: 767px) and (max-width: 1199px) {
+  body.body-destination {
+    background-image: url(starter-code/assets/destination/background-destination-tablet.jpg);
+  }
+  body.body-crew {
+    background-image: url(starter-code/assets/crew/background-crew-tablet.jpg);
+  }
+  body.body-technology {
+    background-image: url(starter-code/assets/technology/background-technology-tablet.jpg);
+  }
+}
+@media (min-width: 767px) {
+  body.body-destination {
+    background-image: url(starter-code/assets/destination/background-destination-tablet.jpg);
+  }
+  body.body-crew {
+    background-image: url(starter-code/assets/crew/background-crew-tablet.jpg);
+  }
+  body.body-technology {
+    background-image: url(starter-code/assets/technology/background-technology-tablet.jpg);
   }
 }
 @media (min-width: 767px) and (max-width: 1199px) {
@@ -150,7 +198,38 @@
     height: auto;
   }
 }
+/* ***************************************************************************** */
+/* DESKTOP */
+/* ***************************************************************************** */
 @media (min-width: 1199px) {
+  body.body-destination {
+    background-image: url(starter-code/assets/destination/background-destination-desktop.jpg);
+  }
+  body.body-crew {
+    background-image: url(starter-code/assets/crew/background-crew-desktop.jpg);
+  }
+  body.body-technology {
+    background-image: url(starter-code/assets/technology/background-technology-desktop.jpg);
+  }
+}
+@media (min-width: 767px) {
+  body.body-destination {
+    background-image: url(starter-code/assets/destination/background-destination-desktop.jpg);
+  }
+  body.body-crew {
+    background-image: url(starter-code/assets/crew/background-crew-desktop.jpg);
+  }
+  body.body-technology {
+    background-image: url(starter-code/assets/technology/background-technology-desktop.jpg);
+  }
+}
+@media (min-width: 1199px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12rem;
+  }
   .section--home {
     flex-direction: row;
     height: 60vh;
@@ -167,12 +246,16 @@
     margin-left: auto;
   }
   .heading-1,
+  .heading-2,
   .heading-5,
   .body-text {
     text-align: left;
   }
   .heading-1 {
     font-size: 15rem;
+  }
+  .heading-2 {
+    font-size: 10rem;
   }
   .heading-5 {
     font-size: 2.8rem;
@@ -208,4 +291,58 @@
     letter-spacing: 0.27rem;
   }
   /* ARTICLE */
+  .heading-article {
+    font-size: 2.8rem;
+    text-align: left;
+  }
+  .article-figure,
+  .article-details {
+    flex-direction: row;
+  }
+  .article-img-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .article-img {
+    margin: 0;
+    width: 44.5rem;
+  }
+  .article-text-section {
+    flex: 0 0 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.8rem;
+  }
+  .article-nav {
+    width: 100%;
+  }
+  .article-nav-link {
+    font-size: 1.8rem;
+  }
+  .article-figure header {
+    flex: 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .article-details {
+    position: relative;
+    justify-content: start;
+    text-align: left;
+    gap: 3rem;
+    width: 100%;
+  }
+  .article-details::before {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .article-detail {
+    flex: 1 0;
+    align-items: flex-start;
+  }
 }

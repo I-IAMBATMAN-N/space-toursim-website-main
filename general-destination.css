@@ -3,6 +3,7 @@
   flex-direction: column;
   /* gap: 2.4rem; */
   gap: 4.6rem;
+  height: 100%;
 }
 .article-figure header {
   display: flex;

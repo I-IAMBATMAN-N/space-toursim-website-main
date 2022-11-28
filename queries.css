@@ -313,7 +313,7 @@
   }
   .article-img {
     margin: 0;
-    width: 80%;
+    width: 100%;
     max-width: 60rem;
     display: inline-block;
   }

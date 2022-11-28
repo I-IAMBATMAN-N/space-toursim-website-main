@@ -9,3 +9,8 @@ menuButtons.forEach((e) => {
     nav.classList.toggle("visible");
   });
 });
+if (window.innerWidth > 1199) {
+  const techImg = document.querySelector(".body-technology .article-img");
+  const attr2 = techImg.dataset.src;
+  techImg.setAttribute("src", attr2);
+}

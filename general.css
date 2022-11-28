@@ -62,7 +62,7 @@ body {
 }
 .container {
   width: 100%;
-  max-width: 90rem;
+  max-width: 110rem;
   padding-top: 0rem;
   margin: 0 auto;
   padding: 2.4rem;
@@ -124,6 +124,8 @@ body {
 }
 .main-header {
   z-index: 1;
+  max-width: 144rem;
+  margin: 0 auto;
 }
 .main-header .container {
   display: flex;
@@ -212,6 +214,7 @@ body {
   gap: 1.6rem;
 }
 .btn-cta {
+  flex: 0 0 15rem;
   display: flex;
   justify-content: center;
   align-items: center;

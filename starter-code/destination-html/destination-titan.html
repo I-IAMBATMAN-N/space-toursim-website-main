@@ -16,46 +16,47 @@
     <title>Frontend Mentor | Space tourism website</title>
   </head>
 <body class="body-destination">
-  <header class="main-header">
-    <div class="container">
-      <img src="../assets/shared/logo.svg" alt="Space Travel logo" class="logo"/>
-      <nav class="nav">
+  <div class="mask">
+    <header class="main-header">
+      <div class="container">
+        <img src="../assets/shared/logo.svg" alt="Space Travel logo" class="logo"/>
+        <nav class="nav">
+          <button class="mobile-menu-btn">
+            <img src="../assets/shared/icon-close.svg" alt="menu button close icon" />
+          </button>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="../../index.html" class="nav-link"><span>00</span>Home</li></a>
+            <li class="nav-item"><a href="destination-moon.html" class="nav-link active"><span>01</span>Destination</li></a>
+            <li class="nav-item"><a href="../crew-html/crew-commander.html" class="nav-link"><span>02</span>Crew</li></a>
+            <li class="nav-item"><a href="../technology-html/technology-vehicle.html" class="nav-link"><span>03</span>Technology</li></a>
+          </ul>
+        </nav>
         <button class="mobile-menu-btn">
-          <img src="../assets/shared/icon-close.svg" alt="menu button close icon" />
+          <img 
+            src="../assets/shared/icon-hamburger.svg"
+            alt="menu button hamburger icon"
+          />
         </button>
-        <ul class="nav-list">
-          <li class="nav-item"><a href="../../index.html" class="nav-link"><span>00</span>Home</li></a>
-          <li class="nav-item"><a href="destination-moon.html" class="nav-link active"><span>01</span>Destination</li></a>
-          <li class="nav-item"><a href="../crew-html/crew-commander.html" class="nav-link"><span>02</span>Crew</li></a>
-          <li class="nav-item"><a href="../technology-html/technology-vehicle.html" class="nav-link"><span>03</span>Technology</li></a>
-        </ul>
-      </nav>
-      <button class="mobile-menu-btn">
-        <img 
-          src="../assets/shared/icon-hamburger.svg"
-          alt="menu button hamburger icon"
-        />
-      </button>
-    </div>
-  </header>
+      </div>
+    </header>
   <main class="container">
       <article class="article-figure">
         <header>
           <h4 class="heading-article"><span>01</span>Pick your destination</h4>
-          <div class="article-img-nav-container">
-          </div>
           <div class="article-img-container">
             <img src="../assets/destination/image-titan.png" alt="Titan moon image" class="article-img">
           </div>
-            <nav class="article-nav">
-              <ul class="article-nav-list">
-                <li class="article-nav-item"><a href="destination-moon.html" class="article-nav-link ">Moon</a></li>
-                <li class="article-nav-item"><a href="destination-mars.html" class="article-nav-link">Mars </a></li>
-                <li class="article-nav-item"><a href="destination-europa.html" class="article-nav-link">Europa</a></li>
-                <li class="article-nav-item"><a href="destination-titan.html" class="article-nav-link active">Titan</a></li>
-              </ul>
-            </nav>
+
         </header>
+        <section class="article-text-section">
+          <nav class="article-nav">
+            <ul class="article-nav-list">
+              <li class="article-nav-item"><a href="destination-moon.html" class="article-nav-link ">Moon</a></li>
+              <li class="article-nav-item"><a href="destination-mars.html" class="article-nav-link">Mars </a></li>
+              <li class="article-nav-item"><a href="destination-europa.html" class="article-nav-link">Europa</a></li>
+              <li class="article-nav-item"><a href="destination-titan.html" class="article-nav-link active">Titan</a></li>
+            </ul>
+          </nav>
         <section class="article-figure-caption">
           <h2 class="heading-2">
             Titan
@@ -66,17 +67,19 @@
             bonus, you get striking views of the Rings of Saturn.
           </p>
       </section>
-      <section class="article-details">
-        <div class="article-detail">
-          <h6 class="subheading-1">avg. distance</h6>
-          <p class="subheading-2"> 1.6 bil. km</p>
-        </div>
-        <div class="article-detail">
-          <h6 class="subheading-1">Est. travel time</h6>
-          <p class="subheading-2">7 years</p>
-        </div>
-      </section>
-    </article>
-  </main>
-</body>
+            <section class="article-details">
+                <div class="article-detail">
+                  <h6 class="subheading-1">avg. distance</h6>
+                  <p class="subheading-2"> 1.6 bil. km</p>
+                </div>
+                <div class="article-detail">
+                  <h6 class="subheading-1">Est. travel time</h6>
+                  <p class="subheading-2">7 years</p>
+                </div>
+            </section>
+          </section>
+        </article>
+      </main>
+    </div>
+  </body>
 </html>

@@ -1,4 +1,5 @@
-@media (min-width: 767px) and (max-width: 1339px) {
+/* GENERAL for NAV */
+@media (min-width: 767px) {
   .mobile-menu-btn {
     display: none;
   }
@@ -55,6 +56,8 @@
     bottom: 0;
     left: 0;
   }
+}
+@media (min-width: 767px) and (max-width: 1339px) {
   .nav-link span {
     display: none;
   }

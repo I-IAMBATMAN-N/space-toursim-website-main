@@ -191,7 +191,7 @@
     content: "";
     display: inline-block;
     height: 0.1rem;
-    width: 47%;
+    width: 55%;
     background-color: #ffffff;
     opacity: 0.2514852;
     position: absolute;
@@ -202,4 +202,10 @@
   .nav-list {
     padding-left: 12.8rem;
   }
+  .nav-link {
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.27rem;
+  }
+  /* ARTICLE */
 }

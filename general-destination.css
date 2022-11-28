@@ -72,6 +72,7 @@
   position: relative;
   z-index: 0;
   text-transform: uppercase;
+  padding: 1.2rem 0;
 }
 .article-nav-link:link,
 .article-nav-link:visited {
@@ -79,17 +80,6 @@
 }
 .article-nav-link.active {
   color: #ffff;
-}
-.nav-link.active::after,
-.article-nav-link.active::after {
-  position: absolute;
-  content: "";
-  display: inline-block;
-  width: 80%;
-  height: 0.163rem;
-  background-color: #ffffff;
-  bottom: 0;
-  left: 0;
 }
 .article-details {
   display: flex;

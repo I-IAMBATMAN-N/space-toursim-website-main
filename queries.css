@@ -318,14 +318,14 @@
     display: inline-block;
   }
   .article-text-section {
-    flex: 0 0 40%;
+    flex: 0 0 60%;
     gap: 4.8rem;
   }
   .article-nav {
     width: 100%;
   }
   .article-nav-link {
-    font-size: 1.8rem;
+    font-size: 3.2rem;
   }
   .article-figure {
     justify-content: space-between;
@@ -362,7 +362,6 @@
     flex: 1 0;
     align-items: flex-start;
   }
-
   .article-figure-caption {
     flex: 1 0;
     justify-content: center;
@@ -383,7 +382,36 @@
     order: -1;
     justify-content: space-between;
   }
-  .body-crew .article-text-section .body-text {
+  .body-crew .article-text-section .body-text,
+  .body-technology .article-text-section .body-text {
     width: 80%;
+  }
+  /* TECHNOLOGY  */
+  .body-technology .container {
+    max-width: 140rem;
+  }
+  .body-technology .article-figure header {
+    order: 2;
+    flex: 0 0 40%;
+  }
+  .body-technology .article-text-section {
+    flex-direction: row;
+    padding-left: 3.2rem;
+  }
+  .body-technology .article-text-section,
+  .body-technology .heading-article {
+    padding-left: 4.8rem;
+  }
+  .body-technology .article-nav {
+    width: 20%;
+    display: flex;
+    align-items: center;
+  }
+  .article-nav-list--technology {
+    flex-direction: column;
+  }
+  .body-technology .article-nav-item--technology {
+    width: 8rem;
+    height: 8rem;
   }
 }

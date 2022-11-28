@@ -54,6 +54,11 @@
 .full-width-img {
   width: 100vw;
 }
+.article-text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
 .article-nav {
   width: fit-content;
   margin: 0 auto;

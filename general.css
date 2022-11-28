@@ -187,6 +187,17 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.27rem;
 }
+.nav-link.active::after,
+.article-nav-link.active::after {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 80%;
+  height: 0.163rem;
+  background-color: #ffffff;
+  bottom: 0;
+  left: 0;
+}
 .nav-link span {
   display: inline-block;
   margin-right: 1.2rem;

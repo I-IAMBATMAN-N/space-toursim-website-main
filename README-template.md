@@ -5,11 +5,12 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
+- [What I learned](#what-i-learned)
+- [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -40,6 +41,13 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - JS
+
+### What I learned
+
+Working with sketch file
+
+- amazin experience with rpedetermined values and properties for styling and just thinking about layout itself was nice change against another challenges
+- [scetch file path](\space-toursim-website-main\starter-code\assets\space-tourism-website.sketch)
 
 ### Useful resources
 

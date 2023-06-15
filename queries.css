@@ -304,17 +304,20 @@
     flex-direction: row;
   }
   .article-img-container {
-    flex: 0 0 40%;
-    height: 100%;
+    width: 100%;
+    flex: 0 0 100%;
     display: flex;
-    justify-content: end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
   }
   .article-img {
     margin: 0;
     width: 100%;
-    max-width: 60rem;
+    max-width: 45rem;
     display: inline-block;
+  }
+  .body-crew .article-img {
+    max-width: 60rem;
   }
   .article-text-section {
     flex: 0 0 60%;

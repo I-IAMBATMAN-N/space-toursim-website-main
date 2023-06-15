@@ -228,12 +228,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 12rem;
-    height: 100%;
+    height: 80vh;
   }
   .section--home {
     flex-direction: row;
-    height: 60vh;
+    height: 100%;
     align-items: flex-end;
   }
   .section-text-container {

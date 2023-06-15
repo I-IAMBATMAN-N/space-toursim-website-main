@@ -20,7 +20,7 @@ html {
   font-size: 62.5%;
   font-family: "Barlow";
   color: #ffffff;
-  overflow: hidden;
+  overflow: scroll;
 }
 body {
   background-size: cover;
@@ -32,11 +32,16 @@ body {
   width: 100vw;
   overflow: hidden;
   position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .mask {
   background-color: rgba(11, 13, 23, 0.5);
   width: 100%;
-  /* min-height: 100vh; */
+  min-height: 100vh;
   height: 100%;
   display: flex;
   flex-direction: column;

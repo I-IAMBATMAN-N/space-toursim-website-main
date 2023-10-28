@@ -5,7 +5,7 @@ const nav = document.querySelector(".nav");
 
 menuButtons.forEach((e) => {
   e.addEventListener("click", (e) => {
-    console.log("CLICKED");
+    // console.log("CLICKED");
     nav.classList.toggle("visible");
   });
 });
